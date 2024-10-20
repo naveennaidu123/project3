@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007ACC;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  #featured-players {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .player img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .player h3 {
+    text-align: center;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  #interactive-map {
+    width: 100%;
+    height: 300px;
+    background-color: lightgrey;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005f8c;
+  }
+  
